@@ -3,7 +3,6 @@
 
 """
 You have a data structure of employee information, which includes the employee's unique ID, their importance value, and their direct subordinates' IDs.
-
 You are given an array of employees employees where:
 
 employees[i].id is the ID of the ith employee.
