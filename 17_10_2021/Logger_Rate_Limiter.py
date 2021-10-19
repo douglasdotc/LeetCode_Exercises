@@ -66,8 +66,7 @@ class Logger:
 
 
 # Time Complexity:
-# if - else clause, looking up and updating(searching) hash map, 
-# require constant time --> O(1)
+# Check existance of a certain message and update value in the hash map --> O(n)
 
 # Space Complexity:
 # Depends on the number of messages n --> O(n), 1 per each hash map entry
