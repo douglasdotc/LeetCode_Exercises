@@ -26,10 +26,10 @@ def canSum(nums:list[int], targetSum:int, mem = {}) -> bool:
     mem[targetSum] = False
     return mem[targetSum]
 
-# print(canSum([2,3], 7))
-# print(canSum([5,3,4,7], 7))
-# print(canSum([2,4], 7))
-print(canSum([7, 14], 300))
+print(canSum([2,3], 7, {}))
+print(canSum([5,3,4,7], 7, {}))
+print(canSum([2,4], 7, {}))
+print(canSum([7, 14], 300, {}))
 
 # Time complexity
 # O(mn) where m = target sum, n = array length

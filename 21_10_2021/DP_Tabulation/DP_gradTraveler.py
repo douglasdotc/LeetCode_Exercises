@@ -20,4 +20,4 @@ print(gridTraveler(500, 500))
 
 # 2D array, time and space complexity --> O(mn)
 
-# Can we get rid of double for loop?
+# Can we get rid of double for loop? --> use memorization (recursive approach)

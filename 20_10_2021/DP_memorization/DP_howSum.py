@@ -24,11 +24,11 @@ def howSum(nums:list[int], targetSum:int, mem = {}):
     mem[targetSum] = None
     return mem[targetSum]
 
-print(howSum([2,3], 7))
-# print(howSum([5,3,4,7], 7))
-# print(howSum([2,4], 7))
-# print(howSum([3,5,2], 8))
-# print(howSum([7, 14], 300))
+print(howSum([2,3], 7, {}))
+print(howSum([5,3,4,7], 7, {}))
+print(howSum([2,4], 7, {}))
+print(howSum([3,5,2], 8, {}))
+print(howSum([7, 14], 300, {}))
 
 # Time complexity:
 # O(nm^2), m = targetSum, n = size of array
